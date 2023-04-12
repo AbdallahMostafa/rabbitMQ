@@ -12,6 +12,8 @@ async function connect(){
             const input = JSON.parse(message.content.toString());
             console.log(`Recived job with input ${input.number}`);
             // testing ack
+            // TODO
+            // DeQueue the topic from the queue
             if (input.number == 7)
                 channel.ack(message);
         });
