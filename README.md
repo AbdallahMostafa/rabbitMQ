@@ -1,1 +1,1 @@
-# rabbitMQ
+# A NodeJS app to establish a connection to RabbitMQ to publish a queue called jobs and send to this queue a number that represents any job and consume it by the consumer  
